@@ -1,0 +1,23 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.entradas{
+    width: 80%;
+    margin: 2px 0 15px 0;
+}
+input#enviar{
+    width: 30%;
+}
+.caja{
+    border-radius: 5px;
+    border-color: gold;
+}
+div{
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px gold dotted;
+    padding: 10px 10px 10px 10px;
+    margin: 3% 0 0 5%;
+}

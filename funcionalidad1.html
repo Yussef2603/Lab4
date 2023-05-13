@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="funcionalidad1.css">
+</head>
+<body>
+    <div>
+        <h1>Formulario de Contacto</h1>
+        <form action="sent.html" method="get" class="formulario">
+            <label for="nombre" required>Nombre:</label>
+            <input class="entradas caja" type="text" id="nombre" name="user_name" placeholder="Robert" required>
+            <label for="apellido">Apellido:</label>
+            <input class="entradas caja" type="text" id="apellido" name="user_lastname" placeholder="Walt" required>
+            <label for="correo">Correo electrónico:</label>
+            <input class="entradas caja" type="email" name="email_address" id="correo" placeholder="robert.walt@mail.com" required>
+            <label for="comentario">Comentario:</label>
+            <textarea class="entradas caja"  id="comentario"></textarea>
+            <input class="caja" id="enviar" type="submit">
+        </form>
+    </div>
+</body>
+</html>

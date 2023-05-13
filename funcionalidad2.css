@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/507720200/vector/newspaper-seamless.jpg?s=612x612&w=0&k=20&c=yiJowu0id6pargKZQRuZMKS10DnVpmlNYGTNKm6VSqA=);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.95;
+}
+
+.noticias {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: auto;
+    height: 35rem;
+}

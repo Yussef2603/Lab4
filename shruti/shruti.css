@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+}
+hr{
+    display: inline-block;
+    border: 0;
+    height: 2px;
+    width: 45%;
+    background: black;
+}
+#presentacion p, .lista p{
+    width: 45%;
+}
+
+li a {
+    display: block;
+    width: 280px;
+    height: 35px;
+    background-color: aquamarine;
+    color: #4e4c4c;
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: white;
+    border: 3px solid aquamarine;
+}
+
+a{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #4e4c4c;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
